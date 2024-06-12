@@ -1,0 +1,25 @@
+.logout {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 30px;
+  margin: 0 1rem;
+  margin-top: auto;
+  box-shadow: var(--box-shadow);
+
+  &__fullname {
+    margin-left: 0.5rem;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #e0e5f2;
+    border-radius: 50%;
+  }
+}

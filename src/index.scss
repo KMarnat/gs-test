@@ -1,0 +1,17 @@
+@import "./scss/app";
+@import "./scss/reset";
+
+// components
+@import "./components/Footer/footer";
+@import "./components/Sidemenu/sidemenu";
+@import "./components/Navbar/navbar";
+@import "./components/Avatar/avatar";
+@import "./components/Logout/logout";
+@import "./components/Header/header";
+@import "./components/ChatSection/chatsection";
+@import "./components/SelectGpt/selectgpt";
+@import "./components/ToggleButton/togglebutton";
+@import "./components/ChatWindow/chatwindow";
+
+// pages
+@import "./pages/ChatPage/chatpage";

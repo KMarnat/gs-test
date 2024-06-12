@@ -1,0 +1,19 @@
+.toggle-button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+
+  &__bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background: var(--light-gradient);
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+}

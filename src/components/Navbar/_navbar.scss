@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+
+  &--locked {
+    opacity: 0.5;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    li {
+    }
+  }
+
+  .pro {
+    background-color: #f2efff;
+    height: fit-content;
+    padding: 0.25rem 0.5rem;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #603cff;
+    margin-left: auto;
+    font-size: 0.8rem;
+  }
+}

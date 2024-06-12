@@ -1,0 +1,13 @@
+.select-gpt {
+  display: flex;
+  margin: 2rem 0 1.5rem;
+
+  .active {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+  }
+
+  .in-active {
+    opacity: 0.3;
+  }
+}

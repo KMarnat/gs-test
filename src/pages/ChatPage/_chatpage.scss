@@ -1,0 +1,12 @@
+.chatpage {
+  display: flex;
+  margin: 1rem;
+
+  @media #{$breakpoint-tablet-portrait} {
+    margin: 0;
+  }
+
+  @media #{$breakpoint-mobile-landscape} {
+    height: 100dvh;
+  }
+}

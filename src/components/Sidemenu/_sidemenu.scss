@@ -1,0 +1,38 @@
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: #fff;
+  padding-bottom: 1.5rem;
+  box-shadow: var(--box-shadow);
+
+  @media #{$breakpoint-large} {
+    display: none;
+  }
+
+  .menus {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    color: var(--secondary-clr);
+
+    .lead {
+      color: var(--main-clr);
+    }
+
+    &__chat {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 3.5rem;
+    border-bottom: 1px solid #e9edf7;
+  }
+}

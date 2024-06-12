@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: auto;
+  gap: 1rem;
+  color: var(--secondary-clr);
+
+  @media #{$breakpoint-tablet-portrait} {
+    margin-left: 0;
+  }
+
+  @media #{$breakpoint-mobile-landscape} {
+    font-size: 0.8rem;
+  }
+}

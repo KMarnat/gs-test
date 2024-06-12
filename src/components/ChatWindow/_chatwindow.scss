@@ -1,0 +1,80 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @media #{$breakpoint-mobile-landscape} {
+    height: 100%;
+  }
+
+  &__plugins {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--secondary-clr);
+  }
+
+  &__content {
+    height: 33rem;
+    width: 100%;
+    background-image: url("/src/assets/background.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @media #{$breakpoint-tablet-portrait} {
+      height: 25rem;
+    }
+
+    @media #{$breakpoint-mobile-landscape} {
+      height: 100%;
+    }
+  }
+
+  &__post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+
+    input {
+      border-radius: 30px;
+      border: 1px solid var(--secondary-clr);
+      padding: 1rem;
+      width: 50%;
+
+      @media #{$breakpoint-mobile-landscape} {
+        width: 100%;
+      }
+    }
+
+    button {
+      border-radius: 30px;
+      background: var(--dark-gradient);
+      color: #fff;
+      height: 100%;
+      padding: 0 4rem;
+
+      @media #{$breakpoint-mobile-landscape} {
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  &__info {
+    color: var(--secondary-clr);
+    margin-top: 1.5rem;
+    text-align: center;
+
+    @media #{$breakpoint-mobile-landscape} {
+      display: none;
+    }
+
+    span {
+      color: var(--main-clr);
+      font-weight: 700;
+      border-bottom: 1px solid;
+    }
+  }
+}
